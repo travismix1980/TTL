@@ -1989,8 +1989,6 @@ img.author-box-image {
 }
 
 .item blockquote p:before {
-    content: "\f10d";
-    font-family: Fontawesome;
     float: left;
     margin-right: 10px;
 }
@@ -2008,7 +2006,7 @@ img.author-box-image {
 }
 
 @media screen and (min-width:768px) {
-    #quote-carouse {
+    #quote-carousel {
         margin-bottom: 0;
         padding: 0 40px 30px;
         margin-top: 30px;
