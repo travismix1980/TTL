@@ -2,9 +2,7 @@
 
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,300);
 
-h1{
-    color: #d9534f;
-}
+
 
 .clearfix {
     zoom: 1;
@@ -258,7 +256,7 @@ blockquote {
     z-index: 2 !important;
 }
 
-#services .media:hover .fa-md {}
+/*#services .media:hover .fa-md {}*/
 
 #recent-works {
     padding: 90px 0;
