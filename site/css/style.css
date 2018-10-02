@@ -2,6 +2,10 @@
 
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,300);
 
+h1{
+    color: #d9534f;
+}
+
 .clearfix {
     zoom: 1;
 }
@@ -225,6 +229,7 @@ blockquote {
     margin: 100px auto 0;
     position: relative;
     width: 80px;
+    transform: rotate(15deg);
     -webkit-transform: rotate(15deg);
     -moz-transform: rotate(15deg);
     -o-transform: rotate(15deg);
@@ -351,7 +356,7 @@ blockquote {
     -o-transition: all .5s ease-in-out;
     -ms-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
-    border-bottom: 4px solid #00b29e;
+    border-bottom: 4px solid #d9534f;
 }
 
 .portfolio-item h5:after {
@@ -794,7 +799,7 @@ ul.tag-cloud li {
     left: 0;
     width: 100%;
     height: 2px;
-    background: #fff;
+    background: #d9534f;
     content: '';
     opacity: 0;
     -webkit-transition: all .5s ease-in-out;
@@ -894,7 +899,7 @@ ul.tag-cloud li {
 
 .team-member:hover .img-thumbnail {
     background: transparent;
-    background-color: #00b29e;
+    background-color: #d9534f;
 }
 
 .team-member .img-thumbnail {
@@ -1610,15 +1615,15 @@ img.author-box-image {
 
 .btn-outlined.btn-primary {
     background: none;
-    border: 2px solid #00b29e;
-    color: #00b29e;
+    border: 2px solid #d9534f;
+    color: #d9534f;
 }
 
 .btn-outlined.btn-primary:hover,
 .btn-outlined.btn-primary:active {
     color: #FFF;
-    background: #00b29e;
-    border-color: #00b29e;
+    background: #d9534f;
+    border-color: #d9534f;
 }
 
 .btn-outlined.btn-success {
