@@ -2,7 +2,12 @@
 
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,300);
 
-
+@media only screen and (max-width: 600px) and (orientation: portrait){
+    .phonescreen{
+        margin-top: 100px;
+    }
+    
+}
 
 .clearfix {
     zoom: 1;
